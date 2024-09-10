@@ -8,7 +8,7 @@
     "start": "node index.js",
     "prestart": "npm install",
     "pretest": "npm install",
-    "test": "./node_modules/.bin/mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json --exit"
+    "test": "mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json --exit"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +18,6 @@
     "mocha": "^10.4.0",
     "mocha-junit-reporter": "^2.2.1",
     "mocha-multi-reporters": "^1.5.1",
-    "sinon": "^17.0.1"
+    "sinon": "^18.0.1"
   }
 }
